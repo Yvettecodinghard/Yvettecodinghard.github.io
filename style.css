@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #0d4b8e;
+    background-color: #659DBD;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -35,31 +35,53 @@ header p {
 .section h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    text-align: left;
+    margin-top:100px;
 }
 
+.section img{
+    width: 300px;;
+    height:auto;
+    float:left;
+    margin-right:20px;
+}
+
+.section ul{
+    text-align: justify;
+    overflow: auto;
+    display:block;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0
+}
 .project {
+    display:block;
     margin-bottom: 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    background-color: white;
-    transition: transform 0.2s;
-}
-
-.project:hover {
-    transform: translateY(-5px);
+    background-color: rgba(241, 245, 11, 0.059);
 }
 
 .project h3 {
     font-size: 24px;
+    text-align: left;
+}
+
+a {
+    text-decoration: underline; /* Remove underline from the link */
+    color: #0095ff8f; /* Change link color to your preference */
+    font-weight: bold; /* Make the link text bold */
 }
 
 .project p {
     font-size: 16px;
 }
 
+
 footer {
-    background-color: #0d4b8e;
+    background-color: #659DBD;
     color: white;
     text-align: center;
     padding: 20px 0;
