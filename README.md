@@ -16,5 +16,5 @@
 
 # 📫 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/yvetteyuu/) 👨🏻‍💻
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/yvetteyuu/) 👨🏻‍💻
 - Write Me an [Email](mailto:your-email@example.com) 💌
