@@ -1,3 +1,4 @@
+/* style entire body */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     color: #333;
 }
 
+/* style header section */
 header {
     background-color: #659DBD;
     color: white;
@@ -13,25 +15,33 @@ header {
     padding: 20px 0;
 }
 
+/* style header H1 */
 header h1 {
     font-size: 36px;
     margin: 0;
+    font-weight: bold; /* Added font weight for emphasis */
 }
 
+/* style header H1 */
 header p {
     font-size: 18px;
+    margin-top: 10px; /* Add space between h1 and p */
+    opacity: 0.8; /* Slightly reduce opacity for a subtle effect */
 }
 
+/* style container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* style section */
 .section {
     padding: 40px 0;
 }
 
+/* style section H2 */
 .section h2 {
     font-size: 28px;
     margin-bottom: 20px;
@@ -39,6 +49,7 @@ header p {
     margin-top:100px;
 }
 
+/* style section img */
 .section img{
     width: 300px;;
     height:auto;
@@ -46,6 +57,7 @@ header p {
     margin-right:20px;
 }
 
+/* style section ul */
 .section ul{
     text-align: justify;
     overflow: auto;
@@ -55,6 +67,8 @@ header p {
     max-width: 800px;
     margin: 0
 }
+
+/* style project */
 .project {
     display:block;
     margin-bottom: 40px;
@@ -64,19 +78,64 @@ header p {
     background-color: rgba(241, 245, 11, 0.059);
 }
 
+/* project H3 */
 .project h3 {
     font-size: 24px;
     text-align: left;
 }
 
+/* style a */
 a {
-    text-decoration: underline; /* Remove underline from the link */
+    text-decoration: none; /* Remove underline from the link */
     color: #0095ff8f; /* Change link color to your preference */
     font-weight: bold; /* Make the link text bold */
 }
 
+/* style a hover*/
+a:hover{
+    color: #0056b3; /* Change link color on hover */
+}
+
+/* style project p */
 .project p {
     font-size: 16px;
+}
+
+
+/* Style the contact section */
+#contact-me-part {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+#contact-me-part ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#contact-me-part li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+#contact-me-part img {
+    width: 20px; /* Adjust the image size as needed */
+    height: 20px;
+}
+
+#contact-me-part a {
+    text-decoration: none;
+    color: #0095ff8f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+
+#contact-me-part a:hover {
+    color: #0056b3; /* Change link color on hover */
 }
 
 
